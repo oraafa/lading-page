@@ -1,0 +1,26 @@
+@import url(menu.css);
+@import url(banner.css);
+@import url(carrossel.css);
+
+
+
+
+
+:root{
+    --cor-menu:#1B2838;
+    --cor-de-fundo:#0d1825;
+    --branco:#FFFFFF;
+    --fonte:"Inter";
+    --banner-degrade:rgba(14, 19, 30, 0) rgba(14, 19, 30, 0.7)rgba(14, 19, 30, 0.7)rgba(14, 19, 30, 0);
+    --botão:rgba(0, 148, 255, 1);
+
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: "Inter";
+    color: var(--branco);
+    max-width: 1366px;
+    
+
+    
+}

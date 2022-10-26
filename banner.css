@@ -1,0 +1,56 @@
+.banner__fundo{
+    background-color: red;
+}
+
+
+
+.banner__descrição{
+    display: flex;
+    
+    flex-direction: column;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 352px;
+    
+    
+}
+.banner__imagem__fundo{
+    position: absolute;
+    width:1366px ;
+    height: 500px;
+    opacity: 0.2;
+    
+
+}
+.banner__titulo{
+    width: 240px;
+    height: 90.24px;
+    margin: 0 0 40px 0;
+}
+
+.banner__texto{
+    width: 361px;
+    height: 125px;
+    font-weight: 500;
+    font-size: 18px;
+    height: 125px;
+    
+
+}
+
+.botão__ancora{
+    background-color: var(--botão);
+    padding: 18px 48px;
+    width: 150px;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 4px;
+    color: var(--branco);
+    
+}
+.botão__ancora:hover{
+    background-color: rgb(116, 241, 169);
+    transition: 0.5s;
+}

@@ -1,0 +1,82 @@
+
+.carrossel{
+    display: flex;
+    justify-content: center;
+    margin-top: 65vh;
+    margin-bottom: 80px;
+    
+    
+}
+.menu__carrossel{
+    background-color: var(--cor-menu);
+    width: 79%;
+    margin-left: 13vw;
+    border-radius: 4px;
+}
+.menu-navegação__carrossel{
+    display: flex;
+    justify-content: center;
+    
+    padding: 20px;
+}
+.menu-navegação__link:hover{
+    color: var(--botão);
+}
+.menu-navegação__link:active{
+    text-decoration:solid;
+}
+
+.barra__de__pesquisa{
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    background-color: var(--cor-menu) ;
+    width: 79%;
+    margin-left: 13vw;
+    border-radius: 4px;
+    
+}
+.carrossel__pesquisa{
+    background-color: transparent;
+    
+    color: var(--branco);
+    border-radius: 4px;
+    padding: 1em;
+    
+    
+    text-transform: uppercase;
+
+    
+    width: 100%;
+    padding: 15px;
+    
+    
+    
+}
+.carrossel__pesquisa::placeholder{
+    font-family: var(--fonte);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--branco);
+    text-transform: uppercase;
+    background: url(../DESAFIO30/img/lupa.svg) no-repeat;
+}
+
+
+
+.jogos__imagens{
+    display: flex;
+    margin: 5.5em 9em;   
+    
+}
+.jogos__imagem{
+    width: 280px;
+    height: 359px;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--cor-menu);
+    padding: 1em;
+    
+}
